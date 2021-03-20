@@ -31,7 +31,7 @@ const Description = ({ divArray, divId }) => {
                 if (index === id) {
                     return ({
                         ...text,
-                        [name]: value
+                        [name]: value // change the property that has the same name (title or description) as the string value of name
                     });
                 } else {
                     return text;
@@ -39,7 +39,6 @@ const Description = ({ divArray, divId }) => {
             });
             return tempArray;
         });
-        console.log(text);
     }
 
     return (

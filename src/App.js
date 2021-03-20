@@ -11,8 +11,8 @@ function App() {
   // initalize state
   const [rootState, setRootState] = useState({
     imgValue: '',
-    divArray: [false, false, false, false, false, false],
-    divId: ''
+    divArray: [true, false, false, false, false, false],
+    divId: '0'
   });
 
   // handle event after choosing an image
